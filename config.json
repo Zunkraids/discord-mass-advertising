@@ -2,6 +2,7 @@
     "message" : "Enter your message here!",
     "interval" : "60000",
     "guildID" : "guild ID here",
+    "ignoreDM" : "",
     "prefix" : "!",
     "triggercommand" : "dmall",
     "online" : "true",
