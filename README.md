@@ -25,3 +25,6 @@ THIS IS 100% AGAINST DISCORD'S ToS! THIS IS A SELFBOT, AND A DM ADVERTISER.
 
 Btw, this is basicly a small project to sharpen my NodeJS skills.
 
+
+## Donations:
+BTC: 1AhcfnkFGi956CJo7Kzsj3oh1HRPVxq5r1
