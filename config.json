@@ -1,6 +1,7 @@
 {
     "message" : "Enter your message here!",
     "interval" : "60000",
+    "guildID" : "guild ID here",
     "online" : "true",
     "offline" : "false",
     "idle" : "false",
