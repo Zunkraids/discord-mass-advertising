@@ -1,4 +1,8 @@
 {
     "message" : "Enter your message here!",
-    "timeout" : "foot"
+    "timeout" : "foot",
+    "online" : "true",
+    "offline" : "false",
+    "idle" : "false",
+    "DND" : "false"
 }
