@@ -57,10 +57,10 @@ membersS.forEach(function(memberz, index)
   
   fs.readFile(config.dmedfile, function (err, data) {
   if (err) throw err;
-  //if(data.includes(members)){
+  if(data.includes(members)){
    //console.log(data);
    // return;
-  //}
+  }
 });
   
   memberz.send(config.message, { split: '\n' } )
