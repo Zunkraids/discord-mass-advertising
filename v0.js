@@ -55,6 +55,12 @@ memberss.forEach(function(memberz, index)
  setTimeout(function () {
   memberz.send(config.message, { split: '\n' } )
   console.log("DM'ED " + memberz)
+  
+  fs.writeFile(config.dmedfile, memberz, (err) => {
+   if (err) console.log(err);
+   console.log("I have added " + memberz + " to the list to not DM."
+  });
+  
   }, index * config.interval);
 })
 
