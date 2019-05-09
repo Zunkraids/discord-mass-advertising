@@ -40,7 +40,7 @@ client.on("message", msg => {
 if (msg.author.bot) return; // Dont message bots
 
 if(msg.content === config.prefix + config.triggercommand) {
-let guild = config.guildID;
+let guild = client.guilds.get(config.guildID);
 
 var membersS = []
 
