@@ -52,7 +52,7 @@ memberss.forEach(function(memberz, index)
  setTimeout(function () {
   memberz.send(config.message, { split: '\n' } )
   console.log("DM'ED " + memberz)
-  }, index * interval);
+  }, index * config.interval);
 })
 
 }
