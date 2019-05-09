@@ -39,7 +39,7 @@ return;
 client.on("message", msg => {
 if (msg.author.bot) return; // Dont message bots
 
-if(msg.content === config.prefix + congig.triggercommand) {
+if(msg.content === config.prefix + config.triggercommand) {
 let guild = config.guild;
 
 var membersS = []
