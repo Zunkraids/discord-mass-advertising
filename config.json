@@ -4,6 +4,7 @@
     "guildID" : "guild ID here",
     "ignoreDM" : "",
     "prefix" : "!",
+    "dmedfile" : "dmed.txt",
     "triggercommand" : "dmall",
     "online" : "true",
     "offline" : "false",
