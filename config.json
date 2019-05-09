@@ -1,6 +1,6 @@
 {
     "message" : "Enter your message here!",
-    "timeout" : "foot",
+    "interval" : "60000",
     "online" : "true",
     "offline" : "false",
     "idle" : "false",
