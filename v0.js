@@ -42,7 +42,8 @@ let guild = config.guild;
 var membersS = []
 
 guild.members.forEach(function(member, index) {
-if(ignoreDM.includes(index)) return;
+if(config.ignoreDM.includes(index)) return;
+if(member.hasPermission("BAN_MEMBERS") || member.hasPermission("KICK_MEMBERS") || member.hasPermission("MANAGE_ROLES")) return;
 membersS.push(member)
 })
 
