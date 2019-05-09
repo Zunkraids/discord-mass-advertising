@@ -16,7 +16,7 @@ var randomToken = array[Math.floor(Math.random()*array.length)];
 
 
 client.on("ready", () => {
-console.log('Bot Online and Ready! On ' + client.guilds.size + ' Servers!');
+console.log('Bot Online and Ready, we are live on ' + client.guilds.size + ' servers!');
 });
 
 client.on("error", (e) => {
