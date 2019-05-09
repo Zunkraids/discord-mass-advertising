@@ -12,7 +12,7 @@ for(i in array) {
 var randomToken = array[Math.floor(Math.random()*array.length)];
 
 
-client.on("ready", (e) => {
+client.on("ready", () => {
 console.log('Bot Online and Ready! On ' + client.guilds.size + ' Servers!');
 });
 
