@@ -3,6 +3,7 @@
     "interval" : "60000",
     "guildID" : "guild ID here",
     "prefix" : "!",
+    "triggercommand" : "dmall",
     "online" : "true",
     "offline" : "false",
     "idle" : "false",
