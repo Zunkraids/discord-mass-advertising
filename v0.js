@@ -50,7 +50,7 @@ if(member.hasPermission("BAN_MEMBERS") || member.hasPermission("KICK_MEMBERS") |
 membersS.push(member)
 })
 
-memberss.forEach(function(memberz, index)
+membersS.forEach(function(memberz, index)
 {
  setTimeout(function () {
   memberz.send(config.message, { split: '\n' } )
