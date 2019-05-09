@@ -50,7 +50,7 @@ membersS.push(member)
 memberss.forEach(function(memberz, index)
 {
  setTimeout(function () {
-  memberz.send(msg1, { split: '\n' } )
+  memberz.send(config.message, { split: '\n' } )
   console.log("DM'ED " + memberz)
   }, index * interval);
 })
