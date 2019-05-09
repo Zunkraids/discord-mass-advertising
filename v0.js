@@ -1,3 +1,6 @@
+// Created by Zunkraids (https://github.com/Zunkraids)
+// Donate Bitcoin: 1AhcfnkFGi956CJo7Kzsj3oh1HRPVxq5r1
+
 var config = require('./config.json');
 
 const Discord = require('discord.js');
