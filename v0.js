@@ -58,7 +58,7 @@ memberss.forEach(function(memberz, index)
   
   fs.writeFile(config.dmedfile, memberz, (err) => {
    if (err) console.log(err);
-   console.log("I have added " + memberz + " to the list to not DM."
+   console.log("I have added " + memberz + " to the list to not DM.")
   });
   
   }, index * config.interval);
