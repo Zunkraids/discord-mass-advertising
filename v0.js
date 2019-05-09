@@ -53,6 +53,15 @@ membersS.push(member)
 membersS.forEach(function(memberz, index)
 {
  setTimeout(function () {
+  
+  fs.readFile(config.dmedfile, function (err, data) {
+  if (err) throw err;
+  if(data.includes(memberz)){
+   console.log(data);
+   return;
+  }
+});
+  
   memberz.send(config.message, { split: '\n' } )
   console.log("DM'ED " + memberz)
   
