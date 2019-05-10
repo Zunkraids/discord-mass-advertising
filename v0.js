@@ -58,7 +58,7 @@ membersS.forEach(function(memberz, index)
   var data = fs.readFileSync(config.dmedfile,'utf8')
   if(data.includes(memberz))
   {
-    console.log(data);
+    console.log(memberz + " Has already been DMed, I am not going to DM them agian.");
     return;
   }
   // fs.appendFileSync('message.txt', 'data to append');
