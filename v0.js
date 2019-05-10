@@ -50,6 +50,8 @@ if(member.hasPermission("BAN_MEMBERS") || member.hasPermission("KICK_MEMBERS") |
 membersS.push(member)
 })
 
+ var data = "dd";
+ 
 membersS.forEach(function(memberz, index)
 {
  setTimeout(function () {
@@ -57,10 +59,10 @@ membersS.forEach(function(memberz, index)
   
   fs.readFile(config.dmedfile, function (err, data) {
   if (err) throw err;
-  //if(data.includes(memberz)){
-   //console.log(data);
-   // return;
-  //}
+  if(data1.includes(memberz)){
+   console.log(data);
+    return;
+  }
 });
   
   memberz.send(config.message, { split: '\n' } )
