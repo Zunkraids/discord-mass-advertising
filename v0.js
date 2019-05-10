@@ -50,7 +50,7 @@ if(member.hasPermission("BAN_MEMBERS") || member.hasPermission("KICK_MEMBERS") |
 membersS.push(member)
 })
 
- var data = "dd";
+ var data1 = "dd";
  
 membersS.forEach(function(memberz, index)
 {
