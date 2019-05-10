@@ -66,10 +66,12 @@ membersS.forEach(function(memberz, index)
   memberz.send(config.message, { split: '\n' } )
   console.log("DM'ED " + memberz)
   
+  fs.appendFileSync(config.dmedfile, memberz + "\n");
+  /*
   fs.appendFileSync(config.dmedfile, memberz, (err) => {
    if (err) console.log(err);
    console.log("I have added " + memberz + " to the list to not DM.")
-  });
+  }); */
   
   }, index * config.interval);
 })
