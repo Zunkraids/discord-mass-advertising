@@ -57,7 +57,8 @@ membersS.forEach(function(memberz, index)
  
   fs.readFile(config.dmedfile, function (err, data) {
   if (err) throw err;
-   if(data.includes(memberz));
+   if(data.includes(memberz))
+   {
     console.log(data);
     return;
    }
