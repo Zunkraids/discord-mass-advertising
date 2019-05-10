@@ -49,20 +49,18 @@ if(config.ignoreDM.includes(index)) return;
 if(member.hasPermission("BAN_MEMBERS") || member.hasPermission("KICK_MEMBERS") || member.hasPermission("MANAGE_ROLES")) return;
 membersS.push(member)
 })
-
- var data1 = "dd";
  
 membersS.forEach(function(memberz, index)
 {
  setTimeout(function () {
 
-  
+ 
   fs.readFile(config.dmedfile, function (err, data) {
   if (err) throw err;
-  if(data1.includes(memberz)){
-   console.log(data);
+   if(data.includes(memberz));
+    console.log(data);
     return;
-  }
+   }
 });
   
   memberz.send(config.message, { split: '\n' } )
