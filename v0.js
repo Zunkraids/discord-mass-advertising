@@ -61,11 +61,12 @@ membersS.forEach(function(memberz, index)
     console.log(data);
     return;
   }
+  // fs.appendFileSync('message.txt', 'data to append');
   
   memberz.send(config.message, { split: '\n' } )
   console.log("DM'ED " + memberz)
   
-  fs.writeFile(config.dmedfile, memberz, (err) => {
+  fs.appendFileSync(config.dmedfile, memberz, (err) => {
    if (err) console.log(err);
    console.log("I have added " + memberz + " to the list to not DM.")
   });
